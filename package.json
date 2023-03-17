@@ -22,14 +22,14 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts docs",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "rm": "rm -rf docs",
-    "mv": "mv build docs",
+    "mv": "mv docs docs",
     "git": "git add . && git commit && git push origin master",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d docs"
   },
   "eslintConfig": {
     "extends": [
